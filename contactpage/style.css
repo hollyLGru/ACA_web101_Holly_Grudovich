@@ -1,0 +1,58 @@
+
+
+/* 
+  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    body {
+        background-image: url('https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VjY3VsZW50c3xlbnwwfHwwfHw%3D&w=1000&q=80');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }    
+    h1 {text-align: center;}
+  main {margin: auto;
+        background-color: rgba(21, 22, 22, 0.5);
+        color: white;
+        margin-top: 50pt;
+        padding-left: 10pt;
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+border: 5px double white;
+font-size: 15pt;
+font-family: sans-serif;} 
+} */
+
+ 
+        @media screen and (min-width: 992px) {
+            body {
+                background-image: url('https://images.photowall.com/products/58102/succulent-joy-1.jpg?h=699&q=85');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+              }
+
+            h1 {text-align: center;
+            font-size: 50pt;}
+
+            main {margin: auto;
+                margin-top: 10%;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 5%;
+                background-color: rgba(0, 0, 0, 0.7);
+                color: #fff;
+                padding-left: 50pt;
+                padding-right: 50pt;
+                padding-bottom: 50pt;
+                border: 20px double white;
+            font-size: 25pt;}
+
+            section 
+            {display: grid;
+            grid-template-columns: 1fr 1fr;}
+
+            .left {grid-template-columns: 1/2;
+            padding: 15%;}
+
+            .right {grid-template-columns: 2/3;
+                padding: 15%;}
+        }
