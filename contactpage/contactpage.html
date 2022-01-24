@@ -11,83 +11,82 @@
 <body>
 
 
-    <main>
-        <h1><i>Contact Me</i></h1>
+  <main>
+    <h1><i>Contact Me</i></h1>
 
     <section>
-    
-
-        <article class="left">
-    <form action="results.html" method="GET" enctype="multipart/form-data">
-        <div>
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" >
-      </div>
       
-      <div>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" >
-      </div>
+
+      <article class="left">
       
-      <div>
-        <label for="date">Birthdate</label>
-        <input type="date" name="date" id="date" min="2019-06-10">
-      </div>
-
-
-      <div>
-        Wish to be contact??
-        <div>
-          <label for="yes">Yes</label>
-          <input type="radio" name="contacted" id="yes">
-        </div>
-        <div>
-          <label for="no">No</label>
-          <input type="radio" name="contacted" id="no">
+        <form action="results.html" method="GET" enctype="multipart/form-data">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" >
+          </div>
+          
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" >
+          </div>
+          
+          <div>
+            <label for="date">Birthdate</label>
+            <input type="date" name="date" id="date" min="2019-06-10">
           </div>
 
-        </article>
-       
-    
-   
 
- <article class="right">
-      <div>
-        <label for="comments">Comments</label>
-        <br>
-        <textarea maxlength="500" minlength="20" id="comments" name="comments" > </textarea>
-      </div>
+          <div>
+            Wish to be contact??
+            <div>
+              <label for="yes">Yes</label>
+              <input type="radio" name="contacted" id="yes">
+            </div>
+            <div>
+              <label for="no">No</label>
+              <input type="radio" name="contacted" id="no">
+            </div>
+          </div>
+
+            </article>
+          
+        
       
-      <div>
-        <label for="phone">Phone</label>
-        <input type="tel" name="phone" id="phone">
-      </div>  </form>
-</article>
-</section>
 
-<div class="howdid">
-    <label>
-    <p><span>How did you hear about me?</span></p>
-    <select name="selection">
-    <option value="Classmate">Classmate</option>
-    <option value="Resume Submission">Resume Submission</option>
-    <option value="LinkedIn">LinkedIn</option>
-    <option value="Coding Academy Rec">Coding Academy Rec</option>
-    </select>
-</label>    
-</div>
+    <article class="right">
+          <div>
+            <label for="comments">Comments</label>
+            <br>
+            <textarea maxlength="500" minlength="20" id="comments" name="comments" > </textarea>
+          </div>
+          
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+          </div>  
+    </article>
+    </section>
 
+    <div class="howdid">
+      <label>
+        <p><span>How did you hear about me?</span></p>
+        <select name="selection">
+          <option value="Classmate">Classmate</option>
+          <option value="Resume Submission">Resume Submission</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Coding Academy Rec">Coding Academy Rec</option>
+        </select>
+      </label>    
+    </div>
 
+    <br>
 
-<br>
+    <h1>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </h1>
 
-<h1><button type="reset">Reset</button>
-<button type="submit">Submit</button></h1>
-
-</main>
-
-
-
-
+  </form>
+  </main>
 </body>
 </html>
